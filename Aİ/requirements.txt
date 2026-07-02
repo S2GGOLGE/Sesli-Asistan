@@ -1,0 +1,9 @@
+# Jarvis Core Engine — Python Dependencies
+# ==========================================
+# Install with: pip install -r requirements.txt
+
+# Gemini AI SDK — new official package (google-generativeai is deprecated)
+google-genai>=1.0.0
+
+# Load .env file automatically
+python-dotenv>=1.0.0

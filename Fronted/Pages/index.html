@@ -6,82 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jarvis</title>
     <link rel="stylesheet" href="/Fronted/CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="/Fronted/İmages/logo.png">
 </head>
 
 <body>
 
-<div id="toast-container"></div>
+    <div id="toast-container"></div>
 
-<div id="shutdown-screen" class="shutdown-wrapper">
-    <div class="shutdown-box">
-        <h2>JARVIS OFFLINE</h2>
-        <button id="open-btn">Aç</button>
-    </div>
-</div>
-
-<div id="boot-screen" class="hidden">
-    <div class="boot-content">
-        <div class="boot-title">JARVIS SYSTEM</div>
-        <div class="boot-status" id="boot-status">Initializing...</div>
-        <div class="boot-bar">
-            <div class="boot-progress" id="boot-progress"></div>
-        </div>
-    </div>
-</div>
-
-<div class="layout">
-
-    <div class="chat">
-        <div class="chat-header">Jarvis Console</div>
-
-        <div class="chat-body">
-            <div class="msg bot">System ready.</div>
-        </div>
-
-        <div class="chat-input">
-            <input type="text" placeholder="Command...">
-            <button>Send</button>
+    <div id="shutdown-screen" class="shutdown-wrapper">
+        <div class="shutdown-box">
+            <h2>JARVIS OFFLINE</h2>
+            <button id="open-btn">Aç</button>
         </div>
     </div>
 
-    <div class="center">
-
-        <div class="circle idle">
-            <div class="ai-title">JARVIS</div>
+    <div id="boot-screen" class="hidden">
+        <div class="boot-content">
+            <div class="boot-title">JARVIS SYSTEM</div>
+            <div class="boot-status" id="boot-status">Initializing...</div>
+            <div class="boot-bar">
+                <div class="boot-progress" id="boot-progress"></div>
+            </div>
         </div>
-
-        <div class="controls">
-            <button class="btn mic">🎤</button>
-            <button class="btn toggle">⏯</button>
-            <button class="btn stop">⛔</button>
-        </div>
-
     </div>
 
-    <div class="right">
+    <div class="layout">
 
-        <div class="kutu1">
-            <div class="widget">
-                <div class="widget-title">Time</div>
-                <div id="clock">--:--:--</div>
-                <div id="date">----</div>
+        <div class="chat">
+            <div class="chat-header">Jarvis Console</div>
+
+            <div class="chat-body">
+                <div class="msg bot">System ready.</div>
+            </div>
+
+            <div class="chat-input">
+                <input type="text" placeholder="Command...">
+                <button>Send</button>
             </div>
         </div>
 
-        <div class="kutu2">
-            <div class="widget">
-                <div class="widget-title">Weather</div>
-                <div class="weather-icon">🌤</div>
-                <div>22°C</div>
-                <div>Cloudy</div>
+        <div class="center">
+
+            <div class="circle idle">
+                <div class="ai-title">JARVIS</div>
             </div>
+
+            <div class="controls">
+                <button class="btn mic">🎤</button>
+                <button class="btn toggle">⏯</button>
+                <button class="btn stop">⛔</button>
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="kutu1">
+                <div class="widget">
+                    <div class="widget-title">Time</div>
+                    <div id="clock">--:--:--</div>
+                    <div id="date">----</div>
+                </div>
+            </div>
+
+            <div class="kutu2">
+                <div class="widget">
+                    <div class="widget-title">Weather</div>
+                    <div class="weather-icon">🌤</div>
+                    <div>22°C</div>
+                    <div>Cloudy</div>
+                </div>
+            </div>
+
         </div>
 
     </div>
 
-</div>
-
-<script src="/Fronted/JavaScripts/script.js"></script>
+    <script src="/Fronted/JavaScripts/script.js"></script>
 
 </body>
+
 </html>

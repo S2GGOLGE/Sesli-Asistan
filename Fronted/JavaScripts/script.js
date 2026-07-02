@@ -92,6 +92,10 @@ function startBoot() {
         bootInterval = null;
     }
 
+    // 🔄 Reset bar and status before starting
+    if (bootBar) bootBar.style.width = "0%";
+    if (bootStatus) bootStatus.innerText = "Initializing...";
+
     let progress = 0;
     let stepIndex = 0;
 
