@@ -1,0 +1,115 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+env/
+.venv/
+
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Python paketleri
+build/
+dist/
+*.egg-info/
+
+# AI Model / Dataset
+models/
+model/
+weights/
+checkpoints/
+datasets/
+data/
+
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.ckpt
+
+# Log
+logs/
+*.log
+
+
+# =========================
+# C# / .NET
+# =========================
+bin/
+obj/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+
+
+# =========================
+# Frontend HTML CSS JS
+# =========================
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/
+build/
+
+.cache/
+
+# Environment
+.env
+.env.*
+
+
+# =========================
+# Secrets
+# =========================
+*.key
+*.pem
+*.secret
+appsettings.Development.json
+
+
+# =========================
+# Android (ileride eklenirse)
+# =========================
+.gradle/
+.idea/
+*.iml
+local.properties
+
+*.apk
+*.aab
+
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Temporary
+# =========================
+temp/
+tmp/
+*.tmp
+*.bak
